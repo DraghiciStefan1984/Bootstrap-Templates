@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+  .jumbotron
+  {
+    background-image: url('https://images.theconversation.com/files/94013/original/image-20150907-22253-rnp0iv.jpg?ixlib=rb-1.1.0&rect=0%2C375%2C4256%2C2064&q=45&auto=format&w=1356&h=668&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  section
+  {
+    padding-top: 4rem;
+  }
+
+  #section-newsletter
+  {
+    padding-top: 0;
+  }
+</style>
+
+<title>Landing Page</title>
+</head>
+<body data-spy="scroll" data-target="#navScrollspy">
+
+  <!-- Navbar -->
+  <nav class="navbar bg-primary navbar-dark navabr-expand-md fixed-top">
+    <a href="#" class="navbar-brand">GreenTech</a>
+    <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation" aria-controls="navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id="navScrollspy">
+        <li class="nav-item">
+          <a href="#section-top" class="nav-link">To the top!</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-description" class="nav-link">Description</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-trailer" class="nav-link">Trailer</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-showcase" class="nav-link">Showcase</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-features" class="nav-link">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-pricing" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#section-reviews" class="nav-link">Reviews</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <section id="section-top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+    <div class="container text-center">
+      <h1 class="display-1 text-primary text-uppercase">GreenTech</h1>
+      <p class="display-4 d-none d-sm-block">Best software from Romania</p>
+      <p class="lead">The coolest games.</p>
+      <p class="lead">The most accurate AI's.</p>
+      <p class="lead">The fastest loading websites.</p>
+      <p class="lead">The most complete mobile apps.</p>
+      <p><strong>Download now on:</strong></p>
+      <a href="#" class="btn btn-lg btn-primary"><i class="fab fa-app-store"></i>App Store</a>
+      <a href="#" class="btn btn-lg btn-primary"><i class="fab fa-google-play"></i>Play Store</a>
+    </div>
+  </section>
+
+  <!-- Rest of the Content -->
+  <div class="container">
+    <!-- Description -->
+    <section id="description">
+      <h2 class="display-4 text-center">Who we are.</h2>
+      <p class="text-center">Small but fast growing software company.</p>
+    </section>
+
+    <!-- Trailer -->
+    <section id="section-trailer">
+      <h2 class="display-4 text-center">Trailer</h2>
+      <p class="text-center">Watch our trailer below.</p>  
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oRylB2yTAZY" 
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="embed-responsive-item"></iframe>
+      </section>
+
+      <!-- Showcase -->
+      <section id="section-showcase">
+        <h2 class="display-4 text-center">Check out our products</h2>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="https://media.moddb.com/images/groups/1/4/3106/actofwar.jpg" alt="Games" class="d-block img-fluid">
+              <div class="carousel-caption">
+                <h3 class="display-4">Games</h3>
+                <p>Action, adventure, RPG, RTS, mobile, VR, desktop, you name it!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://fclg23c6y3d1rxmcb2zl6lfm-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/ipm-websitepage-images51-1024x768-1024x768.jpg" alt="Mobile Apps" class="d-block img-fluid">
+              <div class="carousel-caption">
+                <h3 class="display-4">Mobile Apps</h3>
+                <p>Get a mobile app for your business!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://d1sr9z1pdl3mb7.cloudfront.net/wp-content/uploads/2017/01/25183133/artificial-intelligence-1024x768.jpg" alt="AI" class="d-block img-fluid">
+              <div class="carousel-caption">
+                <h3 class="display-4">AI</h3>
+                <p>Get your AI assistent!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.gravytrain.co.uk/wp-content/uploads/2017/03/wordpress-cms-responsive.jpg" alt="Website" class="d-block img-fluid">
+              <div class="carousel-caption">
+                <h3 class="display-4">Websites</h3>
+                <p>Get a website for your hobby or business!</p>
+              </div>
+            </div>
+          </div>
+          <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="section-features">
+        <h2 class="display-4 text-center">Features</h2>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+            <h3 class="h4 mb-4 text-center">Enhance your business</h3>
+            <p>Get the best website and app for your business.</p>
+            <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+            <h3 class="h4 mb-4 text-center">Create your game</h3>
+            <p>Have an idea for a game? Build it with us!.</p>
+            <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+            <h3 class="h4 mb-4 text-center">Automate your life</h3>
+            <p>Get everything organized by an AI assistant.</p>
+            <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+            <h3 class="h4 mb-4 text-center">Build your app</h3>
+            <p>Build your app and make tons of money!</p>
+            <a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section id="section-pricing">
+        <h2 class="display-4 text-center">Choose your plan!</h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card card-outline-success">
+              <div class="card-header bg-success text-center text-white">
+                <h2>Starter</h2>
+                <h4>100 Euro</h4>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Perfect if you need just a website?</p>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item">Increase your sales!</li>
+                <li class="list-group-item">Gain more clients!</li>
+              </ul>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-success btn-lg text-center text-white">Choose this plan</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card card-outline-warning">
+              <div class="card-header bg-warning text-center text-white">
+                <h2>Optimized</h2>
+                <h4>450 Euro</h4>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Perfect if you need a website and mobile app?</p>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item">Triple your sales!</li>
+                <li class="list-group-item">Gain even more clients!</li>
+              </ul>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-warning btn-lg text-center text-white">Choose this plan</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card card-outline-danger">
+              <div class="card-header bg-danger text-center text-white">
+                <h2>Complete</h2>
+                <h4>1000 Euro</h4>
+              </div>
+              <div class="card-body">
+                <p class="card-text">You want the real deal!</p>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item">Increase your sales tenfold!</li>
+                <li class="list-group-item">Gain more clients than ever before!</li>
+              </ul>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-danger btn-lg text-center text-white">Choose this plan</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section id="section-reviews">
+        <h2 class="display-4 text-center">Reviews</h2>
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3">
+            <blockquote class="blockquote p-3">
+              <p>Very proffesional services!</p>
+              <footer class="blockquote-footer">Mark Hammil</footer>
+            </blockquote>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <blockquote class="blockquote p-3">
+              <p>Helped me out a lot!</p>
+              <footer class="blockquote-footer">Jessica Tyler</footer>
+            </blockquote>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <blockquote class="blockquote p-3">
+              <p>Best games ever!</p>
+              <footer class="blockquote-footer">Toby Small</footer>
+            </blockquote>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <blockquote class="blockquote p-3">
+              <p>Great AI!</p>
+              <footer class="blockquote-footer">Toby Big</footer>
+            </blockquote>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Newsletter -->
+    <section id="section-newsletter" class="bg-secondary">
+      <div class="container">
+
+        <form class="py-5 text-white">
+          <h2 class="text-center">Sign-up for our newsletter.</h2>
+          <p>Recieve the latest news and offers.</p>
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="form-group">
+                <label for="input-name" class="sr-only">Your name:</label>
+                <input type="text" class="form-control" placeholder="First name, last name" id="input-name">
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6">
+              <div class="form-group">
+                <label for="input-email" class="sr-only">Email:</label>
+                <input type="email" class="form-control" placeholder="Email" id="input-email">
+              </div>
+            </div>
+
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" id="input-terms" value="Terms">
+              I have read and accept the <a href="#" data-toggle="modal" data-target="#modal">terms and conditions.</a>
+            </label>
+          </div>
+          <div class="d-flex justify-content-between">
+            <small class="form-text">You can unsubscribe at any time.</small>
+            <button type="submit" class="btn btn-dark">Sign Up</button>
+          </div>
+        </form>
+
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden=true>
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">terms and conditions</h5>
+                <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed id semper risus in hendrerit gravida. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Sit amet consectetur adipiscing elit pellentesque habitant. Euismod quis viverra nibh cras pulvinar. Tortor posuere ac ut consequat semper viverra nam libero. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Sed lectus vestibulum mattis ullamcorper velit sed. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Ornare arcu odio ut sem nulla. Auctor neque vitae tempus quam pellentesque. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Erat nam at lectus urna duis.</p>
+                <p>Orci phasellus egestas tellus rutrum. Volutpat commodo sed egestas egestas fringilla. Nibh tellus molestie nunc non blandit massa enim. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Sed id semper risus in hendrerit gravida rutrum quisque. Urna nunc id cursus metus aliquam eleifend mi in. Sit amet aliquam id diam maecenas. Nulla aliquet enim tortor at auctor urna. Tellus mauris a diam maecenas sed enim. Pharetra diam sit amet nisl. In vitae turpis massa sed elementum tempus. Urna neque viverra justo nec ultrices dui sapien eget. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Eu augue ut lectus arcu. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Habitant morbi tristique senectus et netus et malesuada. Faucibus turpis in eu mi bibendum. Sit amet nisl suscipit adipiscing bibendum est.</p>
+                <p>In nisl nisi scelerisque eu ultrices vitae. Nunc sed id semper risus in hendrerit. Magna etiam tempor orci eu. Nam at lectus urna duis. Consectetur purus ut faucibus pulvinar elementum. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet est placerat in. Quis eleifend quam adipiscing vitae. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Cursus eget nunc scelerisque viverra mauris. Tortor condimentum lacinia quis vel eros donec ac. Maecenas accumsan lacus vel facilisis volutpat. Id aliquet risus feugiat in ante metus dictum at tempor. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Purus gravida quis blandit turpis cursus in hac habitasse platea. Condimentum vitae sapien pellentesque habitant. Sit amet nulla facilisi morbi tempus iaculis urna id. Malesuada fames ac turpis egestas. Ultrices sagittis orci a scelerisque purus semper eget duis.</p>
+                <p>Velit laoreet id donec ultrices tincidunt arcu non. Vitae congue eu consequat ac felis donec et odio pellentesque. Dolor purus non enim praesent elementum facilisis leo. Phasellus faucibus scelerisque eleifend donec. Aliquam sem fringilla ut morbi tincidunt. Erat velit scelerisque in dictum non consectetur. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis. Ac turpis egestas sed tempus urna et pharetra. Habitant morbi tristique senectus et netus et malesuada fames ac. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Ante in nibh mauris cursus mattis molestie a iaculis at. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Laoreet suspendisse interdum consectetur libero id faucibus nisl. Mattis rhoncus urna neque viverra justo nec ultrices dui. Senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>Felis eget nunc lobortis mattis aliquam faucibus purus in. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Habitant morbi tristique senectus et netus et malesuada fames. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Quam id leo in vitae turpis massa sed elementum. Tempus imperdiet nulla malesuada pellentesque. Senectus et netus et malesuada fames ac turpis egestas. Praesent semper feugiat nibh sed pulvinar. At ultrices mi tempus imperdiet nulla malesuada. Non curabitur gravida arcu ac tortor dignissim. Vulputate dignissim suspendisse in est ante in. Non quam lacus suspendisse faucibus.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light">
+      <div class="container py-3 py-sm-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3"> 
+            <h6>Quick links</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">What's new?</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Cancel subscription</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Information</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press info</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Partnership</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Follow us</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Youtube</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <h6>Our location</h6>
+            <address>
+              <strong>GreenTech</strong><br/>
+              350 5th Avenue<br/>
+              New York, USA<br/>
+              <abbr title="Telephone">T:</abbr><a href="tel:+40888999222">(088) 89-99-222</a>
+              <abbr title="Mail">M:</abbr><a href="mailto:info@greentech.com">info@greentech.com</a>
+            </address>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-9">
+            <ul class="list-inline">
+              <li class="list-inline">&copy; 2018 GreenTech</li>
+              <li class="list-inline">All rights reserved</li>
+              <li class="list-inline"><a href="#" data-toggle="modal" data-target="#modal">Terms of use</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="dropdown dropup">
+              <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">Change language</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item small px-1">English</a>
+                <a href="#" class="dropdown-item small px-1">German</a>
+                <a href="#" class="dropdown-item small px-1">Romanian</a>
+                <a href="#" class="dropdown-item small px-1">French</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js"></script>
+    <script>
+      $(function())
+      {
+        var scroll = new SmoothScroll('a[href*="#section-"]');
+      }
+    </script>
+  </body>
+  </html>
